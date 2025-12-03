@@ -1,0 +1,15 @@
+title: 天界檔案館 | Amane Kanata Memorial
+description: >-
+  獻給 Hololive 四期生天音彼方的非官方紀念檔案館，記錄她六年的活動軌跡、音樂作品與嘿民的回憶。
+url: "https://yourusername.github.io"
+baseurl: "/amanekanata"
+
+# 之後如果要用 jekyll-seo-tag 再加 plugins
+# plugins:
+#   - jekyll-seo-tag
+
+# 給模板用的小資訊
+author:
+  twitter: cjzopen
+
+# Collections / defaults 可視需要再加
