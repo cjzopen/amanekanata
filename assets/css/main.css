@@ -89,6 +89,7 @@ a:hover {
   position: relative;
   padding-bottom: 0.15rem;
   color: #345066;
+  text-decoration: none;
 }
 
 .nav-link::after {
@@ -423,4 +424,8 @@ a:hover {
   .hero {
     padding: 1.1rem 1rem;
   }
+}
+#cusdis_thread iframe {
+  width: 100%;
+  min-height: 480px;
 }
