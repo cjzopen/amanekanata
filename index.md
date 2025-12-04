@@ -143,10 +143,10 @@
       </div>
     </div>
     <div class="highlight-card">
-      <img src="{{ site.baseurl }}/assets/images/gorilla.png" alt="天音此方" class="highlight-img" />
+      <img src="{{ site.baseurl }}/assets/images/konata.jpg" alt="天音此方" class="highlight-img" />
       <div class="highlight-body">
-        <h3 class="highlight-title">天音此方</h3>
-        <p class="highlight-desc">巨乳此方爆誕！おしお媽媽也無法阻止她的出現。</p>
+        <h3 class="highlight-title">天音此方（天音こなた）</h3>
+        <p class="highlight-desc">巨乳此方爆誕！請さとうぽて繪師設計，おしお媽媽也無法阻止她的出現。</p>
         <p class="highlight-meta">類型：？？？</p>
       </div>
     </div>
@@ -208,7 +208,7 @@
     </div>
   </div>
   <p class="section-note">
-    註：點擊卡片可進入該事件的詳細檔案紀錄頁面。
+    註：重整頁面出現隨機片羽。
   </p>
 </section>
 <script src="{{ site.baseurl }}/assets/js/index.js"></script>
