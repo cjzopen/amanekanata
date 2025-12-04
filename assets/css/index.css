@@ -1,0 +1,24 @@
+/* 卡片基礎樣式 */
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.highlight-card {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+/* 只有當 JS 運作並決定隱藏此卡片時，才會套用這個 Class */
+.highlight-card.js-hidden {
+  display: none; 
+}
+
+/* 簡單的圖片防呆樣式 */
+.highlight-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background-color: #e0f7fa;
+}
