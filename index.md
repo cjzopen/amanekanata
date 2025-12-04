@@ -91,7 +91,7 @@
       <div class="highlight-body">
         <h3 class="highlight-title">同居生活的溫暖日常</h3>
         <p class="highlight-desc">與桐生可可的同居生活，留下了無數溫馨與爆笑的瞬間。那是屬於四期生羈絆最具體的展現，也是粉絲心中永遠的「家」。</p>
-        <p class="highlight-meta">類型：生活雜談 · KanaCoco</p>
+        <p class="highlight-meta">類型：てぇてぇ</p>
       </div>
     </div>
     <div class="highlight-card">
@@ -204,6 +204,14 @@
         <h3 class="highlight-title">接納過去 — 解開 2 年前的封印</h3>
         <p class="highlight-desc">「我已經不是當年的我了。」她親手將 2 年前因表現軟弱而設為不公開的 Among Us 直播檔重新公開。這不只是調整設定，更是她坦然接納過去、戰勝心魔的成長證明。</p>
         <p class="highlight-meta">類型：心境突破</p>
+      </div>
+    </div>
+    <div class="highlight-card">
+      <img src="{{ site.baseurl }}/assets/images/rurudo.webp" alt="rurudo筆下的天音彼方" class="highlight-img" />
+      <div class="highlight-body">
+        <h3 class="highlight-title">與 rurudo 聯動</h3>
+        <p class="highlight-desc">rurudo 明顯喝酒喝到快不行了，天使降臨緊急救援。之後也正式地開一次聯動遊戲直播，看的出她們的好交情。</p>
+        <p class="highlight-meta">類型：てぇてぇ</p>
       </div>
     </div>
   </div>
