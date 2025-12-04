@@ -39,7 +39,7 @@
 
   <div class="highlight-grid" id="highlight-pool">
     <div class="highlight-card">
-      <img src="/assets/images/gorilla.png" alt="天音彼方 PPT 初配信" class="highlight-img" />
+      <img src="{{ site.baseurl }}/assets/images/debut.webp" alt="天音彼方 PPT 初配信" class="highlight-img" />
       <div class="highlight-body">
         <h3 class="highlight-title">傳說的開始 — PPT 發表會</h3>
         <p class="highlight-desc">2019年12月27日，一位天使拿著 PowerPoint 簡報出現在大家面前。那一刻，偶像（？）的傳說正式揭幕。</p>
