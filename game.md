@@ -6,17 +6,6 @@ permalink: /game/
 ---
 
 <style>
-    :root {
-      /* OKLCH Colors for better vibrancy */
-      --color-primary: oklch(70% 0.15 250); /* Kanata Blue */
-      --color-accent: oklch(85% 0.18 90);   /* Halo Gold */
-      --color-danger: oklch(60% 0.22 20);   /* Meat Red */
-      --color-bg: oklch(15% 0.05 280);      /* Deep Space */
-      
-      --glass-surface: rgba(255, 255, 255, 0.1);
-      --glass-border: rgba(255, 255, 255, 0.2);
-      --font-main: 'Noto Sans TC', system-ui, sans-serif;
-    }
 
     @property --gradient-angle {
       syntax: '<angle>';
@@ -24,28 +13,17 @@ permalink: /game/
       inherits: false;
     }
 
-    * {
-      box-sizing: border-box;
-      user-select: none;
-      -webkit-user-select: none;
-      touch-action: none;
-    }
-
-    body {
-      margin: 0;
-      background-color: #000;
-      overflow: hidden;
-      font-family: var(--font-main);
-      color: white;
-      height: 100vh;
-      display: grid;
-      place-items: center;
-    }
-
     /* --- Game Container & CRT Effect --- */
     #game-wrapper {
+      --color-primary: oklch(70% 0.15 250); /* Kanata Blue */
+      --color-accent: oklch(85% 0.18 90);   /* Halo Gold */
+      --color-danger: oklch(60% 0.22 20);   /* Meat Red */
+      --color-bg: oklch(15% 0.05 280);      /* Deep Space */
+      
+      --glass-surface: rgba(255, 255, 255, 0.1);
+      --glass-border: rgba(255, 255, 255, 0.2);
       position: relative;
-      width: 100vw;
+      max-width: var(--max-width);
       height: 100vh;
       background: radial-gradient(circle at center, #1e1e2e 0%, #000 100%);
       overflow: hidden;
