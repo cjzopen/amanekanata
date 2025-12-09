@@ -30,7 +30,9 @@ a:hover {
   text-decoration: none;
   text-decoration: none;
 }
-
+h1,h2{
+  font-family: "Zen Maru Gothic";
+}
 .page {
   min-height: 100vh;
   display: flex;
@@ -56,6 +58,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  font-family: "Zen Maru Gothic";
 }
 
 .nav-brand {
