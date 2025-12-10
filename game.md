@@ -15,17 +15,14 @@ permalink: /game/
       --color-primary: oklch(70% 0.15 250);
       --color-accent: oklch(85% 0.18 90);
       --color-danger: oklch(60% 0.22 20);
-      background-color: #000;
-      overflow: hidden;
-      color: white;
-      display: grid;
-      place-items: center;
       position: relative;
       width: 100%;
+      max-width: 1200px;
       height: auto;
       aspect-ratio: 16 / 9;
       background: #000;
       overflow: hidden;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
       
       /* CRT Scanline Overlay */
       &::after {
@@ -39,9 +36,19 @@ permalink: /game/
         mix-blend-mode: overlay;
       }
     }
+    
+    /* Fullscreen Override */
+    #game-wrapper:fullscreen {
+      max-width: none;
+      width: 100vw;
+      height: 100vh;
+      aspect-ratio: unset;
+    }
 
     canvas {
       display: block;
+      width: 100%;
+      height: 100%;
       filter: drop-shadow(0 0 10px rgba(255,255,255,0.1)); 
     }
 
@@ -282,12 +289,10 @@ permalink: /game/
   </style>
 
 <div id="game-wrapper">
-  <canvas id="gameCanvas"></canvas>
-  
+  <canvas id="gameCanvas"></canvas>  
   <div id="mode-flash">
     <h2>GORILLA MODE</h2>
-  </div>
-  
+  </div>  
   <div id="ui-layer">
     <div class="hud-top">
       <div class="info-group">
@@ -307,8 +312,6 @@ permalink: /game/
       </div>
     </div>
   </div>
-
-  <!-- Main Menu -->
   <div id="menu-start" class="modal show">
     <h1>天音彼方<br>肉肉粉碎者 DX</h1>
     <p>
@@ -317,23 +320,18 @@ permalink: /game/
     </p>
     <button class="btn-start" onclick="game.init()">MISSION START</button>
   </div>
-
-  <!-- Game Over -->
   <div id="menu-over" class="modal">
     <h1>MISSION FAILED</h1>
     <p>FINAL SCORE: <span id="final-score">0</span></p>
     <p id="ending-hint" style="color: #f87171; font-size: 0.9rem"></p>
     <button class="btn-start" onclick="game.init()">RETRY</button>
   </div>
-
-  <!-- Ending Screen -->
   <div id="menu-ending" class="modal">
     <h1 style="color: #f472b6; text-shadow: 0 0 20px #f472b6;">LEGENDARY REUNION</h1>
     <p>你證明了猩猩的力量。<br>與傳說之龍再次相遇...</p>
     <p style="font-size: 1.5rem; color: white;">FINAL SCORE: <span id="end-score">0</span></p>
     <button class="btn-start" onclick="game.init()">PLAY AGAIN</button>
   </div>
-
   <div id="touch-layer">
     <div class="stick-area" id="stick-base"></div>
     <div class="btn-fire" id="btn-fire">ORA!</div>
@@ -904,10 +902,7 @@ class Game {
   resize() {
     this.canvas.width = CFG.w;
     this.canvas.height = CFG.h;
-    const aspect = CFG.w / CFG.h;
-    const winAspect = window.innerWidth / window.innerHeight;
-    if (winAspect > aspect) { this.canvas.style.height = '100vh'; this.canvas.style.width = 'auto'; }
-    else { this.canvas.style.width = '100vw'; this.canvas.style.height = 'auto'; }
+    // Removed dynamic style scaling because CSS now handles the container size
   }
 
   init() {
