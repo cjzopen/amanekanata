@@ -42,9 +42,6 @@ h1,h2{
 /* header / nav */
 
 .site-header {
-  position: sticky;
-  top: 0;
-  z-index: 20;
   backdrop-filter: blur(16px);
   background: linear-gradient(to bottom, rgba(240, 248, 255, 0.96), rgba(240, 248, 255, 0.8));
   border-bottom: 1px solid rgba(134, 206, 249, 0.3);

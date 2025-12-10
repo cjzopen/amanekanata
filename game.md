@@ -6,6 +6,9 @@ permalink: /game/
 ---
 
   <style>
+    .site-main{
+      max-width: 1200px;
+    }
 
     /* --- Game Container --- */
     #game-wrapper {
@@ -19,7 +22,8 @@ permalink: /game/
       place-items: center;
       position: relative;
       width: 100%;
-      height: 100vh;
+      height: auto;
+      aspect-ratio: 16 / 9;
       background: #000;
       overflow: hidden;
       
