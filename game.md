@@ -19,7 +19,7 @@ permalink: /game/
       place-items: center;
       position: relative;
       width: 100%;
-      height: 600px;
+      height: 100vh;
       background: #000;
       overflow: hidden;
       
@@ -276,8 +276,6 @@ permalink: /game/
       }
     }
   </style>
-</head>
-<body>
 
 <div id="game-wrapper">
   <canvas id="gameCanvas"></canvas>
@@ -293,13 +291,11 @@ permalink: /game/
           SCORE <span id="ui-score">0</span>
         </div>
         <div class="level-indicator" id="ui-level">LEVEL 1</div>
-      </div>
-      
+      </div>      
       <div class="right-group">
         <button class="btn-icon" id="btn-fullscreen" title="切換全螢幕">⛶</button>
       </div>
-    </div>
-    
+    </div>    
     <div class="boss-hud" id="boss-hud">
       <div class="label" id="boss-label">MEAT INTEGRITY</div>
       <div class="bar-container">
