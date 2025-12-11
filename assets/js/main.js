@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { selector: '[data-nav="history"]', test: /\/amanekanata\/history\/?/ },
     { selector: '[data-nav="music"]', test: /\/amanekanata\/music\/?/ },
     { selector: '[data-nav="message"]', test: /\/amanekanata\/message\/?/ },
+    { selector: '[data-nav="game"]', test: /\/amanekanata\/game\/?/ },
     { selector: '[data-nav="legal"]', test: /\/amanekanata\/legal\/?/ }
   ];
 
