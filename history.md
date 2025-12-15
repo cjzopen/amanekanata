@@ -5,34 +5,9 @@ description: 從 2019 年降臨到 2025 年畢業，整理天音彼方六年的�
 permalink: /history/
 ---
 
-<!-- 引入 Tailwind CSS 和 Lucide Icons -->
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/history.css" />
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://unpkg.com/lucide@latest"></script>
-<style>
-  /* 自定義動畫樣式 */
-  @keyframes spin-slow {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-  }
-  .animate-spin-slow {
-    animation: spin-slow 10s linear infinite;
-  }
-  .reveal-hidden {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.8s cubic-bezier(0.17, 0.55, 0.55, 1);
-  }
-  .reveal-visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  .reveal-left { transform: translateX(-50px); }
-  .reveal-right { transform: translateX(50px); }
-  .reveal-visible.reveal-left, .reveal-visible.reveal-right { transform: translateX(0); }
-  .noise-bg {
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-  }
-</style>
 
 <div class="min-h-screen bg-[#E0F7FA] font-sans selection:bg-blue-300 selection:text-white overflow-x-hidden relative text-gray-800">
   <div aria-hidden="true" id="progress-bar" class="fixed top-0 left-0 h-1.5 bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-500 origin-left z-50 shadow-[0_0_10px_rgba(59,130,246,0.8)] w-0"></div>
