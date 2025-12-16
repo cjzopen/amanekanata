@@ -7,7 +7,7 @@
     獻給 <span>天音彼方</span> 的數位聖地
   </h1>
   <p class="hero-catchphrase">
-    <strong>キャッチコピーは握力50キロ！ぎゅ♡ぎゅ♡ 握りつぶしちゃうぞ☆</strong>
+    <strong>握力59.9kgアイドル💙ぎゅぎゅ💙握り潰しちゃうぞ💙</strong>
   </p>
   <p class="hero-subtitle">
     「天界檔案館」在此匯集她的片羽、音樂與重要紀錄，為所有嘿民保留六年的回憶。
