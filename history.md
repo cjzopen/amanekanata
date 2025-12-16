@@ -87,6 +87,14 @@ permalink: /history/
                 {{ item.description }}
               </p>
 
+              <!-- link Hint -->
+              {% if item.link %}
+              <div class="mt-4 flex items-center gap-2 text-blue-700 font-semibold text-sm group-hover:text-blue-600">
+                <i class="w-5 h-5 link-2"></i>
+                <span>LINK</span>
+              </div>
+              {% endif %}
+
               <!-- Video Hint -->
               {% if item.video_id %}
               <div class="mt-4 flex items-center gap-2 text-blue-500 font-semibold text-sm group-hover:text-blue-600">

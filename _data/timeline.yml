@@ -1,62 +1,339 @@
 - date: "2019.12.27"
   title: "天使降臨 (初配信)"
-  description: "作為 Hololive 四期生出道。以 PowerPoint 製作的自我介紹震撼全場，獲得了「PPTenshi」的稱號。"
+  description: "Hololive 四期生出道，以 PowerPoint 製作的自我介紹震撼全場，獲得「PPTenshi」稱號。"
   icon: "star"
   icon_type: "icon"
   color: "from-blue-400 to-cyan-300"
   tag: "Debut"
+  link: null
   video_id: "p9N3L9mC-x8"
 
-- date: "2020.02.07"
-  title: "收益化通過"
-  description: "雖然中間經歷了一些波折，但最終成功開啟收益化，開始了正式的天使活動。"
-  icon: "heart"
+- date: "2020.02.08"
+  title: "訂閱 10 萬達成"
+  description: "YouTube 頻道訂閱人數突破 10 萬人。"
+  icon: "trophy"
   icon_type: "icon"
-  color: "from-pink-400 to-rose-300"
+  color: "from-yellow-300 to-amber-200"
   tag: "Milestone"
+  link: null
+  video_id: null
+
+- date: "2020.02.09"
+  title: "收益化通過"
+  description: "YouTube 頻道收益化功能正式開啟。"
+  icon: "dollar-sign"
+  icon_type: "icon"
+  color: "from-green-400 to-emerald-300"
+  tag: "Milestone"
+  link: null
+  video_id: null
+
+- date: "2020.04.01"
+  title: "住院回歸"
+  description: "因耳疾復發短暫住院後，進行復活直播。"
+  icon: "activity"
+  icon_type: "icon"
+  color: "from-red-400 to-pink-300"
+  tag: "Return"
+  link: null
   video_id: null
 
 - date: "2020.07.05"
-  title: "3D 模型披露"
-  description: "展示了驚人的動態視力和可愛的動作，並演唱了多首歌曲，展現了作為偶像的一面。"
-  icon: "mic"
+  title: "3D 化發表"
+  description: "首次披露 3D 模型，展現動態魅力。"
+  icon: "box"
   icon_type: "icon"
-  color: "from-indigo-400 to-purple-300"
-  tag: "3D"
-  video_id: "N01W4M8d7_k"
+  color: "from-blue-500 to-indigo-400"
+  tag: "Model"
+  link: null
+  video_id: "ZUW6CcY-Yf0"
 
-- date: "2021.01.03"
-  title: "握力 50kg 傳說"
-  description: "在公開測量握力時，測出了 50kg 的驚人數值，「大猩猩 (Gorilla)」的形象從此深植人心。"
-  icon: "KG"
-  icon_type: "text"
-  color: "from-gray-400 to-slate-500"
-  tag: "Meme"
-  video_id: "SmXUrp2Xy7k"
-
-- date: "2021.07.27"
-  title: "百萬訂閱達成"
-  description: "在耐久歌回中成功突破 100 萬訂閱，成為 Hololive 重要的里程碑之一。"
-  icon: "award"
+- date: "2020.07.29"
+  title: "Reddit 管理員就任"
+  description: "與桐生可可等人共同擔任 Hololive subreddit 管理員。"
+  icon: "users"
   icon_type: "icon"
-  color: "from-yellow-400 to-amber-300"
-  tag: "1M Subs"
+  color: "from-orange-400 to-red-400"
+  tag: "Community"
+  link: null
   video_id: null
 
-- date: "2022.04.16"
-  title: "個人原創曲《特者生存Wonder-la-der!!》"
-  description: "充滿活力與彼方風格的原創曲發布，歌詞展現了她獨特的世界觀。"
+- date: "2020.10.18"
+  title: "事故後回歸"
+  description: "因事故住院一週後回歸，舉辦復活直播。"
+  icon: "heart-pulse"
+  icon_type: "icon"
+  color: "from-red-400 to-rose-300"
+  tag: "Return"
+  link: null
+  video_id: null
+
+- date: "2020.12.21"
+  title: "2nd fes. Beyond the Stage"
+  description: "作為 Hololive 一員參加大型演唱會活動。"
+  icon: "mic-2"
+  icon_type: "icon"
+  color: "from-purple-500 to-violet-400"
+  tag: "Live"
+  link: null
+  video_id: null
+
+- date: "2021.01.01"
+  title: "正月衣裝披露"
+  description: "展示常服 Live2D 2.0 與正月新衣裝。"
+  icon: "shirt"
+  icon_type: "icon"
+  color: "from-pink-300 to-rose-200"
+  tag: "Outfit"
+  link: null
+  video_id: null
+
+- date: "2021.01.02"
+  title: "一周年 3D Live"
+  description: "舉辦出道一周年紀念 Live「可以由我擔任主角嗎？」。"
   icon: "music"
   icon_type: "icon"
-  color: "from-sky-400 to-blue-400"
-  tag: "Music"
-  video_id: "vQjQG7y1H8o"
+  color: "from-blue-400 to-indigo-500"
+  tag: "Live"
+  link: null
+  video_id: null
 
-- date: "2023.12.27"
-  title: "四週年 Live"
-  description: "舉辦了盛大的四週年紀念 Live，展現了不斷進化的歌唱力與偶像力。"
-  icon: "sparkles"
+- date: "2021.02.15"
+  title: "偶像服披露"
+  description: "正式披露 3D 偶像服裝。"
+  icon: "shirt"
   icon_type: "icon"
-  color: "from-cyan-400 to-teal-300"
-  tag: "Anniversary"
-  video_id: "S5iKTPj1Cgw"
+  color: "from-cyan-400 to-blue-300"
+  tag: "Outfit"
+  link: null
+  video_id: null
+
+- date: "2021.07.27"
+  title: "金盾達成"
+  description: "YouTube 頻道訂閱人數突破 100 萬，為社內第 22 位。"
+  icon: "crown"
+  icon_type: "icon"
+  color: "from-yellow-400 to-amber-300"
+  tag: "Milestone"
+  link: null
+  video_id: null
+
+- date: "2021.08.19"
+  title: "首創曲「特者生存ワンダラダー!!」"
+  description: "發表個人第一首原創歌曲。"
+  icon: "music"
+  icon_type: "icon"
+  color: "from-purple-400 to-fuchsia-300"
+  tag: "Music"
+  link: null
+  video_id: "rJ93J22vXJc"
+
+- date: "2022.04.21"
+  title: "休養回歸 & 原創曲"
+  description: "自新冠肺炎康復回歸，並發布第三首原創曲「中空の庭」。"
+  icon: "music"
+  icon_type: "icon"
+  color: "from-teal-400 to-emerald-300"
+  tag: "Music"
+  link: null
+  video_id: null
+
+- date: "2022.05.01"
+  title: "團體 ORIO & 白衣天使"
+  description: "與常闇永遠結成「ORIO」，同日發表新衣裝「白衣天使」。"
+  icon: "users"
+  icon_type: "icon"
+  color: "from-sky-300 to-blue-200"
+  tag: "Unit"
+  link: null
+  video_id: null
+
+- date: "2022.12.27"
+  title: "3D 衣裝「墮天使」"
+  description: "發表百萬訂閱紀念 3D 衣裝。"
+  icon: "shirt"
+  icon_type: "icon"
+  color: "from-slate-700 to-gray-500"
+  tag: "Outfit"
+  link: null
+  video_id: null
+
+- date: "2022.12.28"
+  title: "原創曲「別世界」"
+  description: "發表個人第四首原創歌曲。"
+  icon: "music"
+  icon_type: "icon"
+  color: "from-indigo-500 to-purple-500"
+  tag: "Music"
+  link: null
+  video_id: "Xn7rK1i_wMg"
+
+- date: "2023.06.17"
+  title: "新衣裝「地雷系」"
+  description: "發表地雷系風格的新衣裝。"
+  icon: "shirt"
+  icon_type: "icon"
+  color: "from-pink-500 to-rose-400"
+  tag: "Outfit"
+  link: null
+  video_id: null
+
+- date: "2023.10.10"
+  title: "Live2D 3.0"
+  description: "發表 Live2D 形象 3.0 版本更新。"
+  icon: "smile"
+  icon_type: "icon"
+  color: "from-blue-300 to-cyan-200"
+  tag: "Model"
+  link: null
+  video_id: null
+
+- date: "2024.01.06"
+  title: "原創曲「Knock it out!」"
+  description: "發表個人第五首原創歌曲。"
+  icon: "music"
+  icon_type: "icon"
+  color: "from-yellow-400 to-orange-400"
+  tag: "Music"
+  link: null
+  video_id: "jE65lSPst8U"
+
+- date: "2024.02.03"
+  title: "原創曲「純粋心」"
+  description: "發表個人第六首原創歌曲。"
+  icon: "music"
+  icon_type: "icon"
+  color: "from-pink-300 to-purple-300"
+  tag: "Music"
+  link: null
+  video_id: null
+
+- date: "2024.02.24"
+  title: "原創曲「START UP」"
+  description: "發表個人第七首原創歌曲。"
+  icon: "music"
+  icon_type: "icon"
+  color: "from-blue-500 to-indigo-500"
+  tag: "Music"
+  link: null
+  video_id: "PCm3F4n4_w8"
+
+- date: "2024.03.13"
+  title: "首張專輯『Unknown DIVA』"
+  description: "發售個人首張音樂專輯。"
+  icon: "disc"
+  icon_type: "icon"
+  color: "from-violet-500 to-fuchsia-400"
+  tag: "Album"
+  link: null
+  video_id: null
+
+- date: "2024.04.22"
+  title: "新衣裝「泳裝」"
+  description: "發表泳裝造型新衣裝。"
+  icon: "shirt"
+  icon_type: "icon"
+  color: "from-cyan-300 to-blue-200"
+  tag: "Outfit"
+  link: null
+  video_id: null
+
+- date: "2024.06.26"
+  title: "訂閱 150 萬達成"
+  description: "YouTube 頻道訂閱人數突破 150 萬。"
+  icon: "trophy"
+  icon_type: "icon"
+  color: "from-yellow-400 to-orange-300"
+  tag: "Milestone"
+  link: null
+  video_id: null
+
+- date: "2024.07.12"
+  title: "Japan Expo 2024"
+  description: "參加法國巴黎舉辦的線下活動。"
+  icon: "plane"
+  icon_type: "icon"
+  color: "from-blue-600 to-blue-400"
+  tag: "Event"
+  link: null
+  video_id: null
+
+- date: "2025.02.16"
+  title: "新衣裝「天界警備任務裝」"
+  description: "發表天界警備任務風格的新衣裝。"
+  icon: "shield"
+  icon_type: "icon"
+  color: "from-slate-500 to-zinc-400"
+  tag: "Outfit"
+  link: null
+  video_id: null
+
+- date: "2025.03.08"
+  title: "hololive 6th fes."
+  description: "參加「Color Rise Harmony」第一天演唱會。"
+  icon: "mic-2"
+  icon_type: "icon"
+  color: "from-rose-400 to-orange-400"
+  tag: "Live"
+  link: null
+  video_id: null
+
+- date: "2025.04.22"
+  title: "原創曲「きゅーぴっど。」"
+  description: "發布個人原創歌曲。"
+  icon: "music"
+  icon_type: "icon"
+  color: "from-pink-300 to-rose-300"
+  tag: "Music"
+  link: null
+  video_id: null
+
+- date: "2025.07.23"
+  title: "第二張專輯『Trigger』"
+  description: "發售個人第二張音樂專輯。"
+  icon: "disc"
+  icon_type: "icon"
+  color: "from-red-500 to-orange-400"
+  tag: "Album"
+  link: null
+  video_id: null
+
+- date: "2025.08.13"
+  title: "1st Solo Live「LOCK ON」"
+  description: "於東京有明體育館舉辦個人第一場演唱會。"
+  icon: "mic"
+  icon_type: "icon"
+  color: "from-blue-600 to-violet-500"
+  tag: "Solo Live"
+  link: null
+  video_id: null
+
+- date: "2025.12.02"
+  title: "宣布畢業"
+  description: "因身心狀況考量，宣布將於 12 月 27 日畢業。"
+  icon: "alert-circle"
+  icon_type: "icon"
+  color: "from-gray-600 to-zinc-500"
+  tag: "News"
+  link: null
+  video_id: null
+
+- date: "2025.12.15"
+  title: "限界突破"
+  description: "在跟FUWAMOCO線下活動直播中，測出握力59.9kg。"
+  icon: "dumbbell"
+  icon_type: "icon"
+  color: "from-red-600 to-zinc-500"
+  tag: "Gorilla"
+  link: null
+  video_id: null
+
+# - date: "2025.12.27"
+#   title: "畢業 (Graduation)"
+#   description: "正式從 Hololive 畢業，結束 VTuber 活動。"
+#   icon: "door-open"
+#   icon_type: "icon"
+#   color: "from-black to-gray-700"
+#   tag: "Graduation"
+#   link: null
+#   video_id: null
