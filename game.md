@@ -403,8 +403,14 @@ class InputSystem {
   constructor() {
     this.keys = new Set();
     this.stick = { active: false, x: 0, y: 0 };
-    
-    window.addEventListener('keydown', e => this.keys.add(e.code));
+
+    window.addEventListener('keydown', e => {
+      // Prevent scrolling for game keys
+      if(['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'Space'].includes(e.code)) {
+        e.preventDefault();
+      }
+      this.keys.add(e.code);
+    });
     window.addEventListener('keyup', e => this.keys.delete(e.code));
 
     const stickBase = document.getElementById('stick-base');

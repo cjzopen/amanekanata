@@ -125,7 +125,7 @@ permalink: /history/
     <!-- 底部結尾 -->
     <div class="text-center mt-20 mb-10 reveal-hidden">
       <div class="inline-block p-4 rounded-full bg-white/50 backdrop-blur border border-blue-200 shadow-lg">
-        <p class="text-blue-500 font-bold">To Be Continued...</p>
+        <p class="text-blue-500 font-bold">20年後さいたまスーパーアリーナ再會</p>
       </div>
     </div>
   </section>

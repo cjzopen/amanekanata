@@ -30,7 +30,7 @@
 
 - date: "2020.04.01"
   title: "住院回歸"
-  description: "因耳疾復發短暫住院後，進行復活直播。"
+  description: "因耳疾復發短暫住院後復活。"
   icon: "activity"
   icon_type: "icon"
   color: "from-red-400 to-pink-300"
@@ -178,6 +178,16 @@
   link: null
   video_id: null
 
+- date: "2023.09.13"
+  title: "Blue Journey『夜明けのうた』"
+  description: "Blue Journey 環球合作企劃，參與演唱的歌曲有《astro》、《あの日の僕らへ》、《水たまり》。"
+  icon: "mic-2"
+  icon_type: "icon"
+  color: "from-cyan-500 to-blue-300"
+  tag: "Live"
+  link: null
+  video_id: null
+
 - date: "2023.10.10"
   title: "Live2D 3.0"
   description: "發表 Live2D 形象 3.0 版本更新。"
@@ -310,7 +320,7 @@
 
 - date: "2025.12.02"
   title: "宣布畢業"
-  description: "因身心狀況考量，宣布將於 12 月 27 日畢業。"
+  description: "因多方考量，宣布將於 12 月 27 日畢業。"
   icon: "alert-circle"
   icon_type: "icon"
   color: "from-gray-600 to-zinc-500"

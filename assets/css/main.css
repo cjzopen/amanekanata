@@ -19,6 +19,7 @@ body {
   color: var(--space-grey);
   background: radial-gradient(circle at top, #ffffff 0, var(--cloud-white) 45%, #e0f4ff 100%);
   scroll-behavior: smooth;
+  text-autospace: normal;
 }
 
 a {
