@@ -21,6 +21,13 @@ body {
   scroll-behavior: smooth;
   text-autospace: normal;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+figure{
+  text-align: center;
+}
 
 a {
   color: var(--kanata-blue);

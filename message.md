@@ -14,6 +14,10 @@ permalink: /message/
       無論是感謝、想說的話、或是屬於你與天音彼方的故事，都可以在這裡留下。
     </p>
   </header>
+  <figure>
+    <img widht="1520" height="855" src="{{ site.baseurl }}/assets/images/highlight/peko-minecraft.webp" alt="ぺこら舉辦的minecraft聯動。">
+    <figcaption>畢業前參加ぺこら舉辦的minecraft活動，大家給天音彼方的留言。</figcaption>
+  </figure>
 
   <div class="comments-wrapper">
     <div id="cusdis_thread"

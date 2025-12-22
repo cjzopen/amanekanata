@@ -58,6 +58,16 @@
   link: null
   video_id: null
 
+- date: "2020.09.27"
+  title: "Cinderella switch"
+  description: "與寶鐘瑪琳出演 VARK 的 Cinderella switch VR 演唱會。"
+  icon: "mic-2"
+  icon_type: "icon"
+  color: "from-amber-300 to-blue-500"
+  tag: "Live"
+  link: null
+  video_id: null
+
 - date: "2020.10.18"
   title: "事故後回歸"
   description: "因事故住院一週後回歸，舉辦復活直播。"
@@ -130,7 +140,7 @@
 
 - date: "2022.04.21"
   title: "休養回歸 & 原創曲"
-  description: "自新冠肺炎康復回歸，並發布第三首原創曲「中空の庭」。"
+  description: "自covid-19康復回歸，並發布第三首原創曲「中空の庭」。"
   icon: "music"
   icon_type: "icon"
   color: "from-teal-400 to-emerald-300"
