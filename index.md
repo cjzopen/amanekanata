@@ -56,4 +56,3 @@
   </div>
 </section>
 <script src="{{ site.baseurl }}/assets/js/index.js"></script>
-<script src="{{ site.baseurl }}/assets/js/bg.js"></script>
