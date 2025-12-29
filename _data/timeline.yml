@@ -365,5 +365,5 @@
   icon_type: "icon"
   color: "from-gray-300 to-blue-400"
   tag: "Music"
-  link: https://youtu.be/IdXhY6zGC4s
-  video_id: null
+  link: null
+  video_id: "IdXhY6zGC4s"

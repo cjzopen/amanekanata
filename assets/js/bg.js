@@ -12,8 +12,7 @@ const CONFIG = {
   featherInterval: 6000,
 };
 
-const container = document.getElementById('memorial-bg');
-
+let container = null;
 // 亂數產生器
 const random = (min, max) => Math.random() * (max - min) + min;
 
@@ -130,6 +129,8 @@ function spawnText() {
 }
 
 function init() {
+  container = document.getElementById('memorial-bg');
+  if (!container) return;
   // 啟動定時器
   setInterval(spawnText, CONFIG.textInterval);
   setInterval(spawnFeather, CONFIG.featherInterval);

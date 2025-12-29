@@ -6,10 +6,10 @@ permalink: /history/
 ---
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/history.css" />
-<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
 <script src="https://unpkg.com/lucide@latest"></script>
 
-<div class="min-h-screen bg-[#E0F7FA] font-sans selection:bg-blue-300 selection:text-white overflow-x-hidden relative text-gray-800">
+<div class="min-h-screen font-sans selection:bg-blue-300 selection:text-white overflow-x-hidden relative text-gray-800">
   <div aria-hidden="true" id="progress-bar" class="fixed top-0 left-0 h-1.5 bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-500 origin-left z-50 shadow-[0_0_10px_rgba(59,130,246,0.8)] w-0"></div>
 
   <!-- 2. 動態背景 (Parallax) -->
@@ -200,7 +200,7 @@ permalink: /history/
     if(!videoId) return;
     
     // 設定影片網址
-    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1`;
     
     // 顯示 Modal
     modal.classList.remove('hidden');
