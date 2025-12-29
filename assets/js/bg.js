@@ -9,7 +9,7 @@ const CONFIG = {
     "ココ見てたか？駆け抜けてやったぜ"
   ],
   textInterval: 8000,
-  featherInterval: 1000,
+  featherInterval: 4000,
 };
 
 const container = document.getElementById('memorial-bg');
@@ -25,7 +25,7 @@ function spawnFeather() {
   // --- 基礎物理參數 ---
   const depth = Math.random(); // 0(遠) ~ 1(近)
   const size = 15 + (depth * 105);
-  const duration = 20 - (depth * 8); // 近的飛比較快
+  const duration = 30 - (depth * 8); // 近的飛比較快
   const opacity = 0.4 + (depth * 0.6); // 近的比較不透明
   const blur = (1 - depth) * 2; // 遠的模糊
   const zIndex = depth > 0.6 ? -1 : -2;
@@ -37,13 +37,13 @@ function spawnFeather() {
   const swayDelay = random(0, -5); 
   
   // 角度邏輯：
-  // baseAngle: 羽毛整體的傾斜傾向 (例如 -30度 ~ +30度)
-  const baseAngle = random(-30, 30);
-  // rangeAngle: 擺動時變化的幅度 (例如來回擺動 20度)
-  const rangeAngle = random(15, 35);
+  // baseAngle: 羽毛整體的傾斜傾向 (例如 -135度 ~ +135度)
+  const baseAngle = random(-135, 135);
+  // rangeAngle: 擺動時變化的幅度
+  const rangeAngle = random(-360, 360);
   
   // 位移邏輯：左右飄移的距離
-  const xDrift = random(20, 60);
+  const xDrift = random(60, 120);
 
   // --- 注入 CSS 變數 ---
   wrapper.style.setProperty('--target-opacity', opacity);

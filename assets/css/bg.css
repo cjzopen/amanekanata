@@ -50,7 +50,7 @@
 .feather-img-tag {
   display: block;
   /* 搖曳動畫：時間與延遲由 JS 隨機決定，製造錯落感 */
-  animation: featherSway var(--sway-duration, 3s) ease-in-out infinite alternate;
+  animation: featherSway var(--sway-duration, 8s) ease-in-out infinite alternate;
   animation-delay: var(--sway-delay, 0s);
   transform-origin: center center;
 }
