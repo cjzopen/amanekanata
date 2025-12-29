@@ -7,7 +7,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1; 
+  z-index: -1;
   overflow: hidden;
   pointer-events: none;
 }
@@ -23,7 +23,7 @@
   opacity: 0;
   will-change: opacity, transform;
   animation: textFadeFlow 8s ease-in-out forwards;
-  z-index: 0; /* 文字在羽毛中間 */
+  z-index: 0;
 }
 
 @keyframes textFadeFlow {
@@ -33,27 +33,35 @@
   100% { opacity: 0; transform: translateY(-40px) scale(1.05); filter: blur(8px); }
 }
 
-/* 羽毛容器 */
+/* 羽毛容器：負責「向上飛」的位移 */
 .feather-container {
   position: absolute;
-  bottom: -100px;
+  bottom: -150px; /* 稍微再往下藏一點 */
   will-change: transform, opacity;
-  /* 這裡不設固定寬高，由 JS 動態控制大小 */
+  /* JS 會注入以下變數，這裡設預設值防呆 
+    --target-opacity: 最終透明度
+  */
 }
 
-/* 情況 A: 使用 CSS 繪製的備案羽毛 
-  當圖片失效時會動態插入這個結構
+/* 內容層：負責「左右搖曳」與「自我旋轉」 
+   CSS Shape 和 Img 都通用這個動畫
 */
+.feather-css-shape,
+.feather-img-tag {
+  display: block;
+  /* 搖曳動畫：時間與延遲由 JS 隨機決定，製造錯落感 */
+  animation: featherSway var(--sway-duration, 3s) ease-in-out infinite alternate;
+  animation-delay: var(--sway-delay, 0s);
+  transform-origin: center center;
+}
+
+/* 情況 A: CSS 繪製的羽毛 */
 .feather-css-shape {
   width: 100%;
   height: 100%;
   background: var(--feather-fallback-color);
-  border-radius: 0% 100% 0% 100%; 
+  border-radius: 0% 100% 0% 100%;
   box-shadow: 0 0 5px rgba(255,255,255,0.8);
-  /* 搖曳動畫 */
-  animation: featherSway 3s ease-in-out infinite alternate;
-  /* 初始選轉 */
-  transform: rotate(45deg); 
 }
 
 .feather-css-shape::after {
@@ -64,27 +72,29 @@
   transform: rotate(45deg); transform-origin: center;
 }
 
-/* 情況 B: 使用圖片的羽毛
-  確保圖片能適應容器並旋轉
-*/
+/* 情況 B: 圖片羽毛 */
 .feather-img-tag {
   width: 100%;
   height: auto;
-  display: block;
-  /* 圖片本身也要搖曳 */
-  animation: featherSway 3s ease-in-out infinite alternate;
-  /* 濾鏡讓白色羽毛圖片更融合背景 */
   filter: drop-shadow(0 0 2px rgba(255,255,255,0.5));
 }
 
+/* 向上飛的動畫 
+*/
 @keyframes featherFloatUp {
-  0% { transform: translateY(0) rotate(0deg); opacity: 0; }
-  10% { opacity: var(--target-opacity, 0.9); } /* JS 會注入目標透明度 */
+  0% { transform: translateY(0); opacity: 0; }
+  10% { opacity: var(--target-opacity, 0.9); }
   90% { opacity: var(--target-opacity, 0.9); }
-  100% { transform: translateY(-120vh) rotate(10deg); opacity: 0; }
+  100% { transform: translateY(-130vh); opacity: 0; }
 }
 
+/* 搖曳動畫
+*/
 @keyframes featherSway {
-  0% { transform: rotate(30deg) translateX(-10px); }
-  100% { transform: rotate(60deg) translateX(10px); }
+  0% { 
+    transform: rotate(var(--r-from)) translateX(var(--x-from)); 
+  }
+  100% { 
+    transform: rotate(var(--r-to)) translateX(var(--x-to)); 
+  }
 }
