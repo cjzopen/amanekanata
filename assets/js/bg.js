@@ -8,8 +8,8 @@ const CONFIG = {
     "明日はなか卯たべる",
     "ココ見てたか？駆け抜けてやったぜ"
   ],
-  textInterval: 8000,
-  featherInterval: 4000,
+  textInterval: 12000,
+  featherInterval: 6000,
 };
 
 const container = document.getElementById('memorial-bg');
@@ -40,7 +40,7 @@ function spawnFeather() {
   // baseAngle: 羽毛整體的傾斜傾向 (例如 -135度 ~ +135度)
   const baseAngle = random(-135, 135);
   // rangeAngle: 擺動時變化的幅度
-  const rangeAngle = random(-360, 360);
+  const rangeAngle = random(-180, 180);
   
   // 位移邏輯：左右飄移的距離
   const xDrift = random(60, 120);
