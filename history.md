@@ -45,9 +45,6 @@ permalink: /history/
       <p class="text-xl md:text-2xl text-blue-400 font-light tracking-widest mb-8">
         Amane Kanata Timeline
       </p>
-      <div class="absolute bottom-10 animate-bounce text-blue-400">
-        <i data-lucide="arrow-down" width="32" height="32"></i>
-      </div>
     </div>
   </section>
 

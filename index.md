@@ -6,9 +6,12 @@
   <h1 class="hero-title">
     獻給 <span>天音彼方</span> 的數位聖地
   </h1>
-  <p class="hero-catchphrase">
-    <strong>握力59.9kgアイドル💙ぎゅぎゅ💙握り潰しちゃうぞ💙</strong>
-  </p>
+  <blockquote class="hero-catchphrase">
+    <p>へい！こんかなた💫</p>
+    <p>キャッチコピーは握力50kg！</p>
+    <p>ぎゅっぎゅ握りつぶしちゃうぞ☆</p>
+    <p>ホロライブ4期生の天音かなたです！</p>
+  </blockquote>
   <p class="hero-subtitle">
     「天界檔案館」在此匯集她的片羽、音樂與重要紀錄，為所有嘿民保留六年的回憶。
   </p>
@@ -51,8 +54,6 @@
     </div>
 {% endfor %}
   </div>
-  <p class="section-note">
-    註：重整頁面出現隨機片羽。
-  </p>
 </section>
 <script src="{{ site.baseurl }}/assets/js/index.js"></script>
+<script src="{{ site.baseurl }}/assets/js/bg.js"></script>

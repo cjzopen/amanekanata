@@ -1,0 +1,90 @@
+#memorial-bg {
+  --kanata-blue-light: #e0f7fa;
+  --kanata-blue-main: #81d4fa;
+  --feather-fallback-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* 文字特效 */
+.floating-text {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: clamp(1.2rem, 2vw, 2rem);
+  font-weight: 600;
+  text-shadow: 0 0 10px rgba(41, 182, 246, 0.6);
+  white-space: nowrap;
+  opacity: 0;
+  will-change: opacity, transform;
+  animation: textFadeFlow 8s ease-in-out forwards;
+  z-index: 0; /* 文字在羽毛中間 */
+}
+
+@keyframes textFadeFlow {
+  0% { opacity: 0; transform: translateY(20px) scale(0.95); filter: blur(5px); }
+  20% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+  80% { opacity: 1; transform: translateY(-20px) scale(1); filter: blur(0); }
+  100% { opacity: 0; transform: translateY(-40px) scale(1.05); filter: blur(8px); }
+}
+
+/* 羽毛容器 */
+.feather-container {
+  position: absolute;
+  bottom: -100px;
+  will-change: transform, opacity;
+  /* 這裡不設固定寬高，由 JS 動態控制大小 */
+}
+
+/* 情況 A: 使用 CSS 繪製的備案羽毛 
+  當圖片失效時會動態插入這個結構
+*/
+.feather-css-shape {
+  width: 100%;
+  height: 100%;
+  background: var(--feather-fallback-color);
+  border-radius: 0% 100% 0% 100%; 
+  box-shadow: 0 0 5px rgba(255,255,255,0.8);
+  /* 搖曳動畫 */
+  animation: featherSway 3s ease-in-out infinite alternate;
+  /* 初始選轉 */
+  transform: rotate(45deg); 
+}
+
+.feather-css-shape::after {
+  content: '';
+  position: absolute;
+  top: 10%; left: 10%; width: 80%; height: 1px;
+  background: rgba(200, 200, 200, 0.5);
+  transform: rotate(45deg); transform-origin: center;
+}
+
+/* 情況 B: 使用圖片的羽毛
+  確保圖片能適應容器並旋轉
+*/
+.feather-img-tag {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* 圖片本身也要搖曳 */
+  animation: featherSway 3s ease-in-out infinite alternate;
+  /* 濾鏡讓白色羽毛圖片更融合背景 */
+  filter: drop-shadow(0 0 2px rgba(255,255,255,0.5));
+}
+
+@keyframes featherFloatUp {
+  0% { transform: translateY(0) rotate(0deg); opacity: 0; }
+  10% { opacity: var(--target-opacity, 0.9); } /* JS 會注入目標透明度 */
+  90% { opacity: var(--target-opacity, 0.9); }
+  100% { transform: translateY(-120vh) rotate(10deg); opacity: 0; }
+}
+
+@keyframes featherSway {
+  0% { transform: rotate(30deg) translateX(-10px); }
+  100% { transform: rotate(60deg) translateX(10px); }
+}

@@ -348,12 +348,22 @@
   link: null
   video_id: null
 
-# - date: "2025.12.27"
-#   title: "畢業 (Graduation)"
-#   description: "正式從 Hololive 畢業，結束 VTuber 活動。"
-#   icon: "door-open"
-#   icon_type: "icon"
-#   color: "from-black to-gray-700"
-#   tag: "Graduation"
-#   link: null
-#   video_id: null
+- date: "2025.12.27"
+  title: "畢業"
+  description: "超過35萬人同時見證近乎完美的畢業LIVE，正式從VTuber界畢業。"
+  icon: "door-open"
+  icon_type: "icon"
+  color: "from-black to-gray-700"
+  tag: "Graduation"
+  link: null
+  video_id: null
+  
+- date: "2025.12.28"
+  title: "最後的原創曲「誰も見てない夢を見ろ」"
+  description: "Specil thanks: へい民。"
+  icon: "music"
+  icon_type: "icon"
+  color: "from-gray-300 to-blue-400"
+  tag: "Music"
+  link: https://youtu.be/IdXhY6zGC4s
+  video_id: null
