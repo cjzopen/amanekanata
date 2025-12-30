@@ -1,3 +1,15 @@
+- title: "STARDUST SONG"
+  date: "2021-02-03"
+  type: "專輯"
+  note: "hololive IDOL PROJECT"
+  link: "https://www.youtube.com/watch?v=LiJBEm9v5Nw"
+
+- title: "Dreaming Days"
+  date: "2021-02-11"
+  type: "專輯"
+  note: "hololive IDOL PROJECT"
+  link: "https://www.youtube.com/watch?v=ZYIraB3_-6U"
+
 - title: "キセキ結び"
   date: "2021-06-25"
   type: "單曲"
@@ -7,8 +19,14 @@
 - title: "特者生存ワンダラダー!!"
   date: "2021-08-19"
   type: "單曲"
-  note: "首支原創曲"
+  note: "首支個人原創曲"
   link: null
+
+- title: "マドロミ"
+  date: "2021-10-13"
+  type: "單曲"
+  note: "Deep Insanity ASYLUM主題曲（天音彼方 & 常闇永遠）"
+  link: "https://www.youtube.com/watch?v=23nEnPOXLEk"
 
 - title: "天使のアガペ"
   date: "2021-10-27"
@@ -19,7 +37,7 @@
 - title: "中空の庭"
   date: "2022-04-21"
   type: "單曲"
-  note: "作詞：やなぎなぎ / 作曲：bermei.inazawa"
+  note: "作詞：やなぎなぎ / 視覺：rurudo"
   link: null
 
 - title: "Over Time"
@@ -60,19 +78,19 @@
 
 - title: "あの日の僕らへ"
   date: "2023-06-19"
-  type: "單曲"
+  type: "《夜明けのうた》"
   note: "Blue Journey (湊阿庫婭・天音彼方・雪花菈米)"
   link: null
 
 - title: "astro"
   date: "2023-07-17"
-  type: "單曲"
+  type: "《夜明けのうた》"
   note: "Blue Journey (貓又小粥・白銀諾艾爾・天音彼方)"
   link: null
 
 - title: "水たまり"
   date: "2023-09-06"
-  type: "專輯《夜明けのうた》"
+  type: "《夜明けのうた》"
   note: "Blue Journey 全員合唱"
   link: null
 

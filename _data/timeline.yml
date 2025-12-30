@@ -118,6 +118,16 @@
   link: null
   video_id: null
 
+- date: "2021.02.17"
+  title: "hololive IDOL PROJECT 1st Live.『Bloom,』"
+  description: "作為 hololive IDOL PROJECT 成員參加首場線上原創曲演唱會。"
+  icon: "mic-2"
+  icon_type: "icon"
+  color: "from-blue-400 to-indigo-700"
+  tag: "Live"
+  link: null
+  video_id: null
+
 - date: "2021.07.27"
   title: "金盾達成"
   description: "YouTube 頻道訂閱人數突破 100 萬，為社內第 22 位。"
@@ -137,6 +147,16 @@
   tag: "Music"
   link: null
   video_id: "rJ93J22vXJc"
+  
+- date: "2021.10.30"
+  title: "Cinderella switch"
+  description: "第二次參加 VARK 的 Cinderella switch VR 演唱會，這次是ORIO組合。"
+  icon: "mic-2"
+  icon_type: "icon"
+  color: "from-amber-300 to-blue-500"
+  tag: "Live"
+  link: null
+  video_id: null
 
 - date: "2022.04.21"
   title: "休養回歸 & 原創曲"
@@ -338,6 +358,16 @@
   link: null
   video_id: null
 
+- date: "2025.12.06"
+  title: "hololive STAGE World Tour '25 -Synchronize!"
+  description: "以嘉賓身分參加世界巡迴演唱會韓國場。"
+  icon: "mic-2"
+  icon_type: "icon"
+  color: "from-purple-500 to-cyan-300"
+  tag: "Live"
+  link: null
+  video_id: null
+  
 - date: "2025.12.15"
   title: "限界突破"
   description: "在跟FUWAMOCO線下活動直播中，測出握力59.9kg。"
