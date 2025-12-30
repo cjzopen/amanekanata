@@ -21,7 +21,7 @@ permalink: /music/
           <th>作品名稱</th>
           <th>發行日期</th>
           <th>類型</th>
-          <th>關鍵備註</th>
+          <th>備註</th>
         </tr>
       </thead>
       <tbody>
