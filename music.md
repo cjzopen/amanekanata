@@ -27,7 +27,15 @@ permalink: /music/
       <tbody>
         {% for work in site.data.discography %}
         <tr>
-          <td>{{ work.title }}</td>
+          <td>
+          {% if work.link %}
+            <a href="{{ work.link }}" target="_blank" rel="noopener noreferrer">
+              {{ work.title }}
+            </a>
+          {% else %}
+            {{ work.title }}
+          {% endif %}
+          </td>
           <td>{{ work.date }}</td>
           <td>{{ work.type }}</td>
           <td>{{ work.note }}</td>

@@ -381,7 +381,37 @@ h1,h2{
   text-align: center;
 }
 
-/* responsive */
+/* 2. 按鈕樣式 */
+#back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: var(--space-grey);
+  color: var(--kanata-blue);
+  border-radius: 50%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(1rem);
+  pointer-events: none; 
+  animation: appear linear forwards;
+  animation-timeline: scroll();
+  animation-range: 0px 500px;
+}
+
+@keyframes appear {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+}
 
 @media (max-width: 640px) {
   .nav {

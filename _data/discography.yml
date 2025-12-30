@@ -1,29 +1,191 @@
-- title: "Unknown DIVA"
-  date: "2024-03-13"
-  type: "專輯 (1st Album)"
-  note: "收錄主打歌《Knock it out!》，與多位知名製作人合作。"
-
-- title: "Trigger"
-  date: "2025-07-23"
-  type: "專輯 (2nd Album)"
-  note: "Oricon 週榜第 5 位，風格更趨成熟與帥氣。"
+- title: "キセキ結び"
+  date: "2021-06-25"
+  type: "單曲"
+  note: "天音彼方作詞作曲，4期生全體合唱"
+  link: null
 
 - title: "特者生存ワンダラダー!!"
   date: "2021-08-19"
   type: "單曲"
-  note: "早期代表作，象徵不屈的生存意志。"
+  note: "首支原創曲"
+  link: null
 
-- title: "Cupid"
-  date: "2025"
+- title: "天使のアガペ"
+  date: "2021-10-27"
   type: "單曲"
-  note: "與 Holoearth 城市接管活動聯動的推廣曲。"
+  note: ""
+  link: null
+
+- title: "中空の庭"
+  date: "2022-04-21"
+  type: "單曲"
+  note: "作詞：やなぎなぎ / 作曲：bermei.inazawa"
+  link: null
 
 - title: "Over Time"
-  date: "2022-07-30"
-  type: "EP (ORIO)"
-  note: "與常闇永遠組成單元 ORIO 的出道作品。"
-
-- title: "別世界 (Betsu Sekai)"
-  date: "2022"
+  date: "2022-05-02"
   type: "單曲"
-  note: "展現其高音域與敘事能力的代表作之一。"
+  note: "ORIO (天音彼方 & 常闇永遠)"
+  link: null
+
+- title: "Like a Phoenix"
+  date: "2022-07-30"
+  type: "EP《Over Time》"
+  note: "ORIO (天音彼方 & 常闇永遠)"
+  link: null
+
+- title: "Pray"
+  date: "2022-07-30"
+  type: "EP《Over Time》"
+  note: "ORIO (天音彼方 & 常闇永遠)"
+  link: null
+
+- title: "Rude"
+  date: "2022-07-30"
+  type: "EP《Over Time》"
+  note: "ORIO (天音彼方 & 常闇永遠)"
+  link: null
+
+- title: "青い遍歴"
+  date: "2022-12-21"
+  type: "專輯"
+  note: "holo*27 企劃"
+  link: null
+
+- title: "別世界"
+  date: "2022-12-28"
+  type: "單曲"
+  note: "天音彼方作詞作曲"
+  link: null
+
+- title: "あの日の僕らへ"
+  date: "2023-06-19"
+  type: "單曲"
+  note: "Blue Journey (湊阿庫婭・天音彼方・雪花菈米)"
+  link: null
+
+- title: "astro"
+  date: "2023-07-17"
+  type: "單曲"
+  note: "Blue Journey (貓又小粥・白銀諾艾爾・天音彼方)"
+  link: null
+
+- title: "水たまり"
+  date: "2023-09-06"
+  type: "專輯《夜明けのうた》"
+  note: "Blue Journey 全員合唱"
+  link: null
+
+- title: "Knock it out!"
+  date: "2024-01-07"
+  type: "單曲"
+  note: ""
+  link: null
+
+- title: "純粋心"
+  date: "2024-02-04"
+  type: "單曲"
+  note: ""
+  link: null
+
+- title: "おらくる"
+  date: "2024-03-13"
+  type: "專輯《Unknown DIVA》"
+  note: ""
+  link: null
+
+- title: "ハッピーピープル"
+  date: "2024-03-13"
+  type: "專輯《Unknown DIVA》"
+  note: ""
+  link: null
+
+- title: "START UP"
+  date: "2024-03-13"
+  type: "專輯《Unknown DIVA》"
+  note: "作詞：天音彼方 / 作曲：藤田淳平"
+  link: null
+
+- title: "返信願望"
+  date: "2024-03-13"
+  type: "專輯《Unknown DIVA》"
+  note: ""
+  link: null
+
+- title: "救済のEnde"
+  date: "2024-03-13"
+  type: "專輯《Unknown DIVA》"
+  note: ""
+  link: null
+
+- title: "片羽"
+  date: "2024-03-13"
+  type: "專輯《Unknown DIVA》"
+  note: "作詞：天音彼方、かめりあ、Toby Fox / 作曲：Toby Fox"
+  link: null
+
+- title: "Trigger"
+  date: "2025-07-23"
+  type: "專輯《Trigger》"
+  note: "2nd Album 主打歌"
+  link: null
+
+- title: "lumière."
+  date: "2025-07-23"
+  type: "專輯《Trigger》"
+  note: "-"
+  link: null
+
+- title: "十万億土"
+  date: "2025-07-23"
+  type: "專輯《Trigger》"
+  note: "天音彼方作詞作曲"
+  link: "https://www.youtube.com/watch?v=RznzWYHfalc"
+
+- title: "Last-resort."
+  date: "2025-07-23"
+  type: "專輯《Trigger》"
+  note: "-"
+  link: null
+
+- title: "セルフサービス"
+  date: "2025-07-23"
+  type: "專輯《Trigger》"
+  note: "-"
+  link: null
+
+- title: "インキャララバイ"
+  date: "2025-07-23"
+  type: "專輯《Trigger》"
+  note: "-"
+  link: null
+
+- title: "睡キャン界隈"
+  date: "2025-07-23"
+  type: "專輯《Trigger》"
+  note: "-"
+  link: null
+
+- title: "世界で一番のアイドル"
+  date: "2025-07-23"
+  type: "專輯《Trigger》"
+  note: "-"
+  link: null
+
+- title: "きゅーぴっど。"
+  date: "2025-07-23"
+  type: "專輯《Trigger》"
+  note: "-"
+  link: null
+
+- title: "わたしのせいだ"
+  date: "2025-07-23"
+  type: "專輯《Trigger》"
+  note: "-"
+  link: null
+
+- title: "誰も見てない夢を見ろ"
+  date: "2025-12-28"
+  type: "單曲"
+  note: "與畢業無關"
+  link: null
