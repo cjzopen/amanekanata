@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css">
 <section class="hero">
-  <div class="hero-kicker">
+  <div class="hero-kicker border-radius-999">
     Celestial Archives · 非官方粉絲檔案館
   </div>
   <h1 class="hero-title">
@@ -16,15 +16,15 @@
     「天界檔案館」在此匯集她的片羽、音樂與重要紀錄，為所有嘿民保留六年的回憶。
   </p>
   <div class="hero-meta">
-    <span class="hero-meta-badge">2019.12.27 出道 → 2025.12.27 畢業</span>
-    <span class="hero-meta-badge">Hololive 四期生 · 天音かなた</span>
+    <span class="hero-meta-badge border-radius-999">2019.12.27 出道 → 2025.12.27 畢業</span>
+    <span class="hero-meta-badge border-radius-999">Hololive 四期生 · 天音かなた</span>
   </div>
   <div class="hero-actions">
-    <a class="btn-primary" href="{{ site.baseurl }}/history/">
+    <a class="btn-primary border-radius-999" href="{{ site.baseurl }}/history/">
       查看歷史時間軸
     </a>
-    <a class="btn-secondary" href="{{ site.baseurl }}/music/">
-      瀏覽 Discography
+    <a class="btn-secondary border-radius-999" href="{{ site.baseurl }}/music/">
+      瀏覽音樂列表
     </a>
   </div>
 </section>
