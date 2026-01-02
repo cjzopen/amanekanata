@@ -18,7 +18,6 @@
   <div class="hero-meta">
     <span class="hero-meta-badge">2019.12.27 出道 → 2025.12.27 畢業</span>
     <span class="hero-meta-badge">Hololive 四期生 · 天音かなた</span>
-    <span class="hero-meta-badge">由社群驅動的數位檔案計畫</span>
   </div>
   <div class="hero-actions">
     <a class="btn-primary" href="{{ site.baseurl }}/history/">

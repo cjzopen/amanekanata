@@ -10,14 +10,14 @@ permalink: /legal/
     <div class="section-kicker">LEGAL</div>
     <h1 class="section-title">法律與二次創作準則</h1>
     <p class="section-lead">
-      本網站為非官方粉絲製作的紀念用途網站，所有內容皆遵守 Hololive Production 的二次創作規範。
+      本網站為非官方粉絲製作的紀念用途網站，無任何政治、宗教、人種、性別等立場思想。
     </p>
   </header>
 
   <h2>非營利規範</h2>
   <p>
-    本網站不投放廣告、不販售周邊、不接收捐款，不進行任何商業營利行為。<br>
-    遵守 COVER 株式会社《二次創作準則》中「粉絲或愛好者層級」之原則。
+    本網站不投放廣告、不販售周邊、不接收捐款，沒有任何商業營利行為。<br>
+    並遵守<a href="https://hololivepro.com/terms/">COVER 株式会社《二次創作ガイドライン》</a>頁面中所定下的規範。
   </p>
 
   <h2>素材使用</h2>
@@ -35,6 +35,6 @@ permalink: /legal/
 
   <h2>免責聲明</h2>
   <p>
-    若本站任何內容被認為侵犯版權，請聯繫本站管理者，我們將立即處理相關內容。
+    若本站任何內容被認為侵犯版權，請聯繫本站管理者（twitter @cjzopen），我們將立即處理相關內容。
   </p>
 </section>
